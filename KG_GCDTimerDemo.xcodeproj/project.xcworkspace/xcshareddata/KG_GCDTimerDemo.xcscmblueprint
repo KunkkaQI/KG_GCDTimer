@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C1CEB78BCF019D0F06623B2CFDB28E999CE5A8F1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C1CEB78BCF019D0F06623B2CFDB28E999CE5A8F1" : 9223372036854775807,
+    "4FAA6EE898A1208D94BFE34E236CD893E06B1DFD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B8F5F99A-E257-4194-AEBF-4D80DC4A4F68",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C1CEB78BCF019D0F06623B2CFDB28E999CE5A8F1" : "KG_GCDTimerDemo\/",
+    "4FAA6EE898A1208D94BFE34E236CD893E06B1DFD" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KG_GCDTimerDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "KG_GCDTimerDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KunkkaQI\/KG_GCDCTimer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4FAA6EE898A1208D94BFE34E236CD893E06B1DFD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KunkkaQI\/KG_GCDTimer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C1CEB78BCF019D0F06623B2CFDB28E999CE5A8F1"
+    }
+  ]
+}
