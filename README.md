@@ -15,7 +15,7 @@ Efficiency than NSTimer.
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add KG_GCDTimer to your project.
 
-1. Add a pod entry for KG_GCDTimer to your Podfile `pod 'KG_GCDTimer', '~> 0.0.1'`
+1. Add a pod entry for KG_GCDTimer to your Podfile `pod 'KG_GCDTimer'`
 2. Install the pod(s) by running `pod install`.
 3. Include KG_GCDTimer wherever you need it with `#import "KG_GCDTimer.h"`.
 
