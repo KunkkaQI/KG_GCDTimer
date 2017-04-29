@@ -12,7 +12,6 @@
 
 @property (nonatomic, strong) NSMutableDictionary *timerContainer;
 @property (nonatomic, strong) NSMutableDictionary *actionBlockCache;
-@property (nonatomic, strong) NSTimer *timer;
 
 @end
 
@@ -123,6 +122,16 @@
     [self.actionBlockCache removeObjectForKey:timerName];
 }
 
+- (void)cancelAllTimer
+{
+    [self.timerContainer enumerateKeysAndObjectsUsingBlock:^(NSString *timerName, dispatch_source_t timer, BOOL *stop) {
+        [self.timerContainer removeObjectForKey:timerName];
+        dispatch_source_cancel(timer);
+    }];
+        
+    [self.actionBlockCache removeAllObjects];
+}
+    
 - (BOOL)existTimer:(NSString *)timerName
 {
     if ([self.timerContainer objectForKey:timerName]) {

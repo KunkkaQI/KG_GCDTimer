@@ -42,7 +42,11 @@ typedef enum : NSUInteger {
  */
 - (void)cancelTimerWithName:(NSString *)timerName;
 
-
+/**
+ * cancel all timer
+ */
+- (void)cancelAllTimer;
+    
 /**
  *  is exist timer,  as unique identifie by neme
  *
