@@ -1,6 +1,6 @@
 //
 //  KG_GCDTimer.h
-//  V1.0.0
+//  V0.0.1
 //
 //  Created by KunkkaQi on 2017/4/29.
 //  Copyright © 2017年 KG. All rights reserved.
