@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/KunkkaQI/KG_GCDTimer"
   s.license      = "MIT"
   s.author             = { "KunkkaQI" => "KunkkaQI@users.noreply.github.com" }
-  s.source       = { :git => "https://github.com/KunkkaQI/KG_GCDTimer.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/KunkkaQI/KG_GCDTimer.git", :tag => s.version}
   s.ios.deployment_target = '8.0'
-  s.source_files = '*.{h,m}'
+  s.source_files = 'KG_GCDTimer'
   s.requires_arc = true
 end
